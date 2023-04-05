@@ -1,0 +1,81 @@
+//Importar libreria para generar pdfs a treves de plantillas
+const pdf = require('html-pdf');
+const generarPDF = () => {
+    //Se va a guadar el html
+    const contenido = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <style>
+    
+      * {
+        font-family: Arial, sans-serif;
+      }
+
+      
+      </style>
+    
+
+
+      <title>Document</title>
+    </head>
+  <body>
+
+    <div style="display: flex; flex-direction: column; margin: 0 auto; width: 500px; height: 600px; border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black; ">
+      
+      <div style="width: 100%; height: 4%; border-bottom: 1px solid black; background-color: black; ">
+          <h1 style="font-size: 14px; text-align: center;  color: white; padding-top: 3px; ">Pozo Chinanteco - 1EXP </h1> 
+      </div>
+
+      <div style="display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; height: 6%; border-bottom: 1px solid black;">
+          <div style=" height: 100%; width: 50%;  border-right: 1px solid black; ">
+              <p style=" font-size: 11px;">Fecha de inspección: 15/Oct/22</p>
+              <p style=" font-size: 11px; ">Hora de inspección: 15:44 </p>
+          </div>
+
+          <div style=" height: 100%; width: 50%; ">
+              <p style=" font-size: 11px; ">Ubicación: X=335,786,201 Y=1,931,445.186</p>
+              <p style=" font-size: 11px;">Estado: <b>Sin fugas</b> </p>
+          </div>
+      </div>
+
+      <div style="display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; height: 43%; border-bottom: 1px solid black;">
+          <div style=" height: 100%; width: 50%;  border-right: 1px solid black; ">
+              
+          </div>
+
+          <div style=" height: 100%; width: 50%; ">
+              
+          </div>
+      </div>
+
+      <div style="display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; height: 6%; border-top: 1px solid black;">
+          <div style=" height: 100%; width: 50%;  border-right: 1px solid black; background-color: black;">
+              <p style=" font-size: 10px; text-align: center;  color: white;">Imagen norma</p>
+          </div>
+
+          <div style=" height: 100%; width: 50%; background-color: black; ">
+              <p style=" font-size: 10px; text-align: center;  color: white;">Imagen infrarroja</p>
+          </div>
+      </div>
+
+      <div style="display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; height: 40%; border-top: 1px solid black;">
+          
+          <div style=" height: 100%; width: 50%;  border-right: 1px solid black; ">
+              
+          </div>
+
+          <div style=" height: 100%; width: 50%; ">
+          
+          </div>
+      </div>
+
+    </div>
+
+  </body>
+  
+  </html>

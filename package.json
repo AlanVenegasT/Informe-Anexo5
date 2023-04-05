@@ -1,0 +1,17 @@
+{
+  "name": "backendpdf",
+  "version": "0.0.1",
+  "description": "generador de pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf"
+  ],
+  "author": "Aldair Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "html-pdf": "^3.0.1"
+  }
+}
