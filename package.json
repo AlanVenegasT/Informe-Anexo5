@@ -12,6 +12,7 @@
   "author": "Aldair Garcia",
   "license": "ISC",
   "dependencies": {
-    "html-pdf": "^3.0.1"
+    "html-pdf": "^3.0.1",
+    "puppeteer": "^19.8.5"
   }
 }
