@@ -64,12 +64,12 @@ const contenido = `
   </div>
 
   <div style="display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; height: 43%; border-bottom: 1px solid black;">
-      <div style="height: 100%; width: 50%; border-right: 1px solid black; inset: 50%;  text-align: center; ">
-        <img style="height: auto; width: 230px; padding-top: 40px; " src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png" alt="">
+      <div style="height: 100%; width: 50%; border-right: 1px solid black; inset: 50%; display: flex; justify-content: center; align-items: center; ">
+        <img style=" max-height: 220px; width: 230px; object-fit: cover; " src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png" alt="">
       </div>
 
-      <div style=" height: 100%; width: 50%;  text-align: center;">
-        <img style=" height: auto; width: 230px; padding-top: 40px;  " src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png " alt="" >
+      <div style=" height: 100%; width: 50%; display: flex; justify-content: center; align-items: center;">
+        <img style=" max-height: 220px; width: 230px; object-fit: cover;    " src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png " alt="" >
       </div>
   </div>
 
@@ -85,8 +85,8 @@ const contenido = `
 
   <div style="display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; height: 42%; border-top: 1px solid black;">
       
-      <div style=" height: 100%; width: 50%;  border-right: 1px solid black;  text-align: center; ">
-      <img style=" height: auto; width: 230px; padding-top: 40px; " src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png " alt="" >  
+      <div style=" height: 100%; width: 50%;  border-right: 1px solid black; display: flex; justify-content: center; align-items: center;">
+      <img style=" max-height: 220px; width: 230px; object-fit: cover;  " src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png " alt="" >  
       </div>
 
       <div style=" height: 100%; width: 50%; ">
